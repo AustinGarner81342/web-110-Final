@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* Nav crap */
+
+.mainnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #1f2937;
+}
+
+.mainnav a {
+    color: #f9fafb;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #092c74;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+
+/* cards */
+
+.cardcontainer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: carolina blue;
+}
+
+.card {
+    flex: 1 1 400px;
+    padding: 25px;
+    border: 1px solid;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+
+.thisisfullwidth {
+    flex-basis: 100%;
+}
+
+.threethingsacross .card {
+    flex-basis: 280px;
+}
+
+
+.textsection {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+
+/* Foots */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #1f2937;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+
+.center {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+}
