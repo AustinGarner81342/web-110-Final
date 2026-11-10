@@ -1,6 +1,10 @@
 body {
     margin: 0;
     background-color: #f4f4f4;
+    font-family: "Lato", sans-serif;
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "lato-bold", sans-serif;
+    }
 }
 
 
@@ -13,14 +17,15 @@ body {
     gap: 10px;
     padding: 20px;
     background-color: #1f2937;
-}
-
-.mainnav a {
+    position: sticky;
+    top: 0;
+     a {
     color: #f9fafb;
     text-decoration: none;
     font-weight: 600;
     padding: 15px 20px;
     border-radius: 6px;
+     }
 }
 
 
@@ -30,11 +35,10 @@ body {
     text-align: center;
     padding: 40px 20px;
     background-color: white;
-}
-
-.hero p {
+     p {
     max-width: 600px;
     margin: 15px auto;
+}
 }
 
 
@@ -110,4 +114,32 @@ footer a {
     padding: 20px;
     margin-top: 20px;
     background-color: #f4f4f4;
+}
+
+/* Fonts */
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* Images */
+.card-image {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
