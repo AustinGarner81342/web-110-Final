@@ -25,6 +25,7 @@ body {
     font-weight: 600;
     padding: 15px 20px;
     border-radius: 6px;
+    background-color: #4872ad;
      }
 }
 
@@ -142,4 +143,25 @@ footer a {
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
+}
+
+
+/* skip link at the top of the page */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+}
+
+.skip-link:focus {
+    left: 1rem;
+    top: 1rem;
+    z-index: 1000;
+    padding: 0.75rem;
+    background: white;
+    color: #000;
+}
+
+a:focus-visible {
+    outline: 3px solid #f59e0b;
+    outline-offset: 3px;
 }
